@@ -1,0 +1,6 @@
+office 365 app password: sqfxsybrqzdlmmcm
+
+UAT for MDX: test.salesforce.com  user: azur@azurgroup.ca.tmx.dev  pass: sfdc12345
+
+Github user: djeffreymtl@gmail.com	pass: M0ls0n@1
+		
