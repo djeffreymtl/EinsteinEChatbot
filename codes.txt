@@ -6,3 +6,5 @@ Github user: djeffreymtl@gmail.com	pass: M0ls0n@1
 		
 		branch - myfeaturebranch
 changes on dec 18 2018 13:20
+
+adding some text for a commit
