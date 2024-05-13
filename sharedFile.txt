@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+This line was added by you in the main branch.
+=======
+This line was added by your co-worker in the feature branch.
+>>>>>>> feature/awesome-feature
+
+Another conflicting change:
+<<<<<<< HEAD
+You like camelCase variable names.
+=======
+Your co-worker prefers snake_case variable names.
+>>>>>>> feature/awesome-feature
+
+And yet another conflict:
+<<<<<<< HEAD
+You use spaces for alignment.
+=======
+Your co-worker aligns code with tabs.
+>>>>>>> feature/awesome-feature
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, justo vel tincidunt lacinia, odio libero volutpat urna, nec bibendum justo nunc vel odio. Sed euismod, tortor a ultrices tincidunt, odio justo tincidunt nunc, vel bibendum libero odio id libero.
+
+Nullam euismod, justo vel tincidunt lacinia, odio libero volutpat urna, nec bibendum justo nunc vel odio. Sed euismod, tortor a ultrices tincidunt, odio justo tincidunt nunc, vel bibendum libero odio id libero.
