@@ -1,0 +1,25 @@
+
+This line was added by you in the main branch.
+
+This line was added by your co-worker in the feature branch.
+>>>>>>> feature/awesome-feature
+
+Here's another conflicting change:
+<<<<<<< HEAD
+You prefer spaces for indentation.
+=======
+Your co-worker prefers tabs for indentation.
+>>>>>>> feature/awesome-feature
+
+And one more conflict:
+<<<<<<< HEAD
+You want to use single quotes for strings.
+=======
+Your co-worker insists on double quotes for strings.
+>>>>>>> feature/awesome-feature
+
+Je crois que les cigalles vont sortir bientôt!!!!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, justo vel tincidunt lacinia, odio libero volutpat urna, nec bibendum justo nunc vel odio. Sed euismod, tortor a ultrices profoundo muchotincidunt, odio justo tincidunt nunc, vel bibendum libero odio id libero.
+
+Nullam euismod, justo vel tincidunt lacinia, odio libero volutpat benacle volumtua urna, nec bibendum justo nunc vel odio. Sed euismod, tortor a ultrices tincidunt, odio justo tincidunt nunc, vel bibendum libero odio id libero.
