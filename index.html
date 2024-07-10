@@ -1,11 +1,15 @@
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
-</head> 
-	
-	<body>
+Here's an updated HTML template that includes the top section image and the "Make an Appointment" section.
 
-<style type='text/css'>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat AI Consulting</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
 	.embeddedServiceHelpButton .helpButton .uiButton {
 		background-color: #005290;
 		font-family: "Arial", sans-serif;
@@ -13,9 +17,52 @@
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #005290;
 	}
-</style>
+        .container { width: 80%; margin: 0 auto; }
+        header, footer { background: #f8f8f8; padding: 20px; text-align: center; }
+        section { margin: 20px 0; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chat AI Consulting</h1>
+        <img src="image1.jpg" alt="Top Section Image">
+    </header>
 
-<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+    <div class="container">
+        <section>
+            <h2>Why Chat AI Consulting</h2>
+            <div>
+                <img src="image2.jpg" alt="Image 2">
+                <h3>No Offshoring</h3>
+                <p>All North American team for quick turnarounds and great communication.</p>
+            </div>
+            <div>
+                <img src="image3.jpg" alt="Image 3">
+                <h3>Quick Turnaround Time</h3>
+                <p>Never miss a deadline again—our agile team is committed to launching your Enhance Einstein Chatbot in record time!</p>
+            </div>
+            <div>
+                <img src="image4.jpg" alt="Image 4">
+                <h3>Flexible Billing</h3>
+                <p>Flexibility at its finest—choose the contract that fits your needs, with no minimum commitments!</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Make an Appointment</h2>
+            <div>
+                <img src="image5.jpg" alt="Make an Appointment Image">
+                <p>Call us at 514-984-3980 to schedule an appointment or use our contact form to get in touch.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Copyright © 2024 Chat AI Consulting - All Rights Reserved.</p>
+        <p>514-984-3980</p>
+    </footer>
+	<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
@@ -67,5 +114,5 @@
 		initESW('https://service.force.com');
 	}
 </script>
-  </body>
+</body>
 </html>
